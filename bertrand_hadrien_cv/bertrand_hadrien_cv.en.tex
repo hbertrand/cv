@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Hadrien}{Bertrand}
+% \title{Resumé title}                              
+\address{16 rue Furtado Heine}{75014 Paris}{France}
+\phone[mobile]{+33~6~15~43~70~31}                   
+\email{hadrien.bertrand@philips.com}          
+% \homepage{www.johndoe.com}                        
+\social[linkedin]{hadrienbertrand}                        % optional, remove / comment the line if not wanted
+% \social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{profile_pic}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2015--2018}{PhD}{Télécom ParisTech / Philips Research Medisys}{Paris}{}{Deep Transfer Learning for Multi-Modality and Multi-Task Anatomical Awareness}
+\cventry{2014--2015}{Exchange Student (ERASMUS)}{KTH Royal Institute of Technology}{Stockholm}{}{Specialisation in AI and machine learning.}
+\cventry{2010--2015}{Master's degree}{Grenoble INP ESISAR}{Valence}{}{Specialisation in computer science and networks.}
+\cventry{2007--2010}{High School Diploma}{Lycée Saint-Joseph}{Avignon}{}{Specialisation in mathematics.}
+
+
+\section{Experience}
+\cventry{February 2015 -- July 2015}{Internship}{Institut de Neurosciences de la Timone}{Marseille}{}{I worked on a new Multi-Voxel Pattern Analysis method which uses a graph-based classification method. It extracts graphs from fMRI data, which are then classified by a SVM using a specialised kernel.}
+
+\cventry{January 2014 -- June 2014}{Industrial Project}{Ingenico, R\&D department}{Valence}{}{Leader in payment solutions, it designs and provides secure payment services and terminals. My work was to study state-of-the-art code analysis tools in order to evaluate the feasibility of checking specific rules provided by Ingenico and developing a prototype.}
+
+\cventry{June 2012 -- August 2012}{Internship}{Kizeo}{Avignon}{}{It is a small company who develops B2B software for smartphones and notably a CRM solution. I worked on a custom-made Android application which allows the user to browse through the catalogue of the client company.}
+
+\cventry{November 2011 -- Mars 2012}{Freelance}{Veolia Transport Valence}{Valence}{}{This company runs the bus network in Valence and is a subsidiary of Veolia. I developed an application on Android which allows the users to access the bus network map and bus schedule easily.}
+
+
+\section{Languages}
+\cvitemwithcomment{French}{Mother tongue}{}
+\cvitemwithcomment{English}{Fluent}{TOEIC score: 990/990 - Level C1}
+
+
+\section{Computer skills}
+\cvitemwithcomment{Programming languages}{C, Java, Python}{}
+\textbf{Artificial Intelligence} \\
+\cvitemwithcomment{Machine Learning}{deep learning, graphical models}{}
+\cvitemwithcomment{Code Analysis Tools}{Klocwork, CODAN (Eclipse)}{}
+\cvitemwithcomment{Networks}{setup and administration}{}
+\cvitemwithcomment{Misc.}{Android, Unix, SQL, Matlab, LaTeX, Git, UML, web development}{}
+
+
+%\section{References}
+%\begin{cvcolumns}
+  %\cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+  %\cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+  %\cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+\end{document}
