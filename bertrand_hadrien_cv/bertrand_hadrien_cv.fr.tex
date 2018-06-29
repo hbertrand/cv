@@ -7,6 +7,7 @@
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
 
@@ -16,11 +17,10 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{Hadrien}{Bertrand}
-% \title{ResumÈ title}                              
-\address{64 avenue des PrimevËres}{84140 Montfavet}{France}
+\name{Hadrien}{Bertrand}                        
+\address{75014 Paris}{France}
 \phone[mobile]{+33~6~15~43~70~31}                   
-\email{hadrien.bertrand@grenoble-inp.org}          
+\email{bertrand.hadrien@gmail.com}          
 % \homepage{www.johndoe.com}                        
 \social[linkedin]{hadrienbertrand}                        % optional, remove / comment the line if not wanted
 % \social[github]{jdoe}                              % optional, remove / comment the line if not wanted
@@ -30,33 +30,37 @@
 \begin{document}
 \makecvtitle
 
+\section{Exp√©riences Professionnelles}
+\cventry{Janvier 2015 -- D√©cembre 2018}{Doctorat}{Philips Research Medisys}{Paris}{}{Th√®se autour des m√©thodes d'apprentissage profond et de transfert d'apprentissage appliqu√©es √† des probl√©matiques d'imagerie m√©dicale, en particulier la classification de champ de vue en IRM et la segmentation du rein en ultrasons 3D.}
+
+\cventry{F√©vrier 2015 -- Juillet 2015}{Stage de fin d'√©tudes}{Institut de Neurosciences de la Timone}{Marseille}{}{Validation d'une m√©thode de `Multi-Voxel Pattern Classification' r√©cemment d√©velopp√© √† l'institut. Cette m√©thode convertit des donn√©es d'IRM fonctionnelles en graphes, qui sont ensuites classifi√©s par une SVM utilisant un kernel sp√©cialis√©.}
+
+\cventry{Janvier 2014 -- Juin 2014}{Projet Industriel}{Ingenico, d√©partment R\&D}{Valence}{}{Etude des techniques modernes d'analyse de code afin d'√©valuer la faisabilit√© de la v√©rification de r√®gles sp√©cifiques aux applications sur les terminaux de payement d'Ingenico, puis d√©veloppement d'un prototype.}
+
+\cventry{Juin 2012 -- Aout 2012}{Stage technicien}{Kizeo}{Avignon}{}{D√©veloppement d'une application Android de pr√©sentation d'un catalogue de produits, avec gestion via un site Web. Travail sur diff√®rentes applications iPhone et Android.}
+
+\cventry{Novembre 2011 -- Mars 2012}{Freelance}{Veolia Transport Valence}{Valence}{}{D√©veloppement d'une application pour permettre aux usagers sous Android d'avoir acc√®s au plan du r√©seau et aux horaires des bus de Valence.}
+
+
 \section{Formations}
-\cventry{2014--2015}{Semestre d'Èchange (ERASMUS)}{KTH Royal Institute of Technology}{Stockholm}{}{FiliËre intelligence artificielle et apprentissage automatique.}
-\cventry{2010--2015}{DiplÙme d'ingÈnieur}{Grenoble INP ESISAR}{Valence}{}{Mention Bien, filiËre Informatique et RÈseaux.}
-\cventry{2007--2010}{BAC S}{LycÈe Saint-Joseph}{Avignon}{}{Mention Assez Bien, Sciences de l'IngÈnieur, SpÈcialitÈ MathÈmatiques.}
-
-
-\section{ExpÈriences Professionnelles}
-\cventry{FÈvrier 2015 -- Juillet 2015}{Stage de fin d'Ètudes}{Institut de Neurosciences de la Timone}{Marseille}{}{J'ai travaillÈ sur une mÈthode de `Multi-Voxel Pattern Classification' rÈcemment dÈveloppÈ ‡ l'institut. Cette mÈthode convertit des donnÈes d'IRM fonctionnelles en graphes, qui sont ensuites classifiÈs par une SVM utilisant un kernel spÈcialisÈ.}
-
-\cventry{Janvier 2014 -- Juin 2014}{Projet Industriel}{Ingenico, dÈpartment R\&D}{Valence}{}{Leader dans les solutions de payement, Ingenico conÁoit et fournit des solutions et terminaux de payement sÈcurisÈs. Mon travail Ètait d'Ètudier les techniques modernes d'analyse de code afin d'Èvaluer la faisabilitÈ de la vÈrification de rËgles spÈcifiques ‡ Ingenico, puis dÈvelopper un prototype.}
-
-\cventry{Juin 2012 -- Aout 2012}{Stage technicien}{Kizeo}{Avignon}{}{DÈveloppement d'une application Android de prÈsentation d'un catalogue de produits, avec gestion via un site Web. Travail sur diffÈrentes applications iPhone et Android.}
-
-\cventry{Novembre 2011 -- Mars 2012}{Freelance}{Veolia Transport Valence}{Valence}{}{DÈveloppement d'une application pour permettre aux usagers sous Android d'avoir accËs au plan du rÈseau et aux horaires des bus de Valence.}
+\cventry{2015--2018}{Doctorat}{Universit√© Paris-Saclay - T√©l√©com ParisTech - LTCI}{Paris}{}{Transfert d'apprentissage pour l'analyse anatomique d'images multi-modales}
+\cventry{2014--2015}{Semestre d'√©change (ERASMUS)}{KTH Royal Institute of Technology}{Stockholm}{}{Fili√®re intelligence artificielle et apprentissage automatique.}
+\cventry{2010--2015}{Dipl√¥me d'ing√©nieur}{Grenoble INP ESISAR}{Valence}{}{Mention Bien, fili√®re Informatique et R√©seaux.}
+\cventry{2007--2010}{BAC S}{Lyc√©e Saint-Joseph}{Avignon}{}{Mention Assez Bien, Sciences de l'Ing√©nieur, Sp√©cialit√© Math√©matiques.}
 
 
 \section{Langues}
-\cvitemwithcomment{FranÁais}{Langue natale}{}
-\cvitemwithcomment{Anglais}{Lu, Ècrit, parlÈ}{Score TOEIC: 990/990 - Niveau C1}
+\cvitemwithcomment{Fran√ßais}{Langue natale}{}
+\cvitemwithcomment{Anglais}{Lu, √©crit, parl√©}{Score TOEIC: 990/990 - Niveau C1}
 
 
-\section{CompÈtences en informatique}
+\section{Comp√©tences en informatique}
 \cvitemwithcomment{Programmation}{C, Java, Python}{}
-\textbf{Intelligence Artificielle} \\
-\cvitemwithcomment{Apprentissage Automatique}{classification, clustering, modËles graphiques}{}
-\cvitemwithcomment{Outils et mÈthodes d'analyse de code}{Klocwork, CODAN (Eclipse)}{}
-\cvitemwithcomment{RÈseaux}{mise en place et administration}{}
+%\textbf{Intelligence Artificielle} \\
+\cvitemwithcomment{IA et Apprentissage Automatique}{apprentissage profond, transfert d'apprentissage,}{}
+\cvitemwithcomment{}{optimisation bay√©sienne, classification, clustering, segmentation s√©mantique, mod√®les graphiques}{}
+%\cvitemwithcomment{Outils et m√©thodes d'analyse de code}{Klocwork, CODAN (Eclipse)}{}
+%\cvitemwithcomment{R√©seaux}{mise en place et administration}{}
 \cvitemwithcomment{Divers}{Android, Unix, SQL, Matlab, LaTeX, Git, UML, web development}{}
 
 
