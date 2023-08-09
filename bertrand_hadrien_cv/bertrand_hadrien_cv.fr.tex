@@ -11,6 +11,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[francais]{babel}
 
+\usepackage{outlines}
+
 % adjust the page margins
 \usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
@@ -18,37 +20,49 @@
 
 % personal data
 \name{Hadrien}{Bertrand}              
-\address{Montréal}{Canada}
+\address{206-7221 rue Clark, H2R 0A9 Montréal}{Canada}
 \email{bertrand.hadrien@gmail.com}
+\phone{438 630-9626}
 % \homepage{www.johndoe.com}                        
 \social[linkedin]{hadrienbertrand}
 \social[github]{hbertrand}                            % optional, remove / comment the line if not wanted
 % \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-% \photo[64pt][0.4pt]{profile_pic}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
 \begin{document}
 \makecvtitle
 
 \section{Expériences Professionnelles}
 
-\cventry{Février 2019 -- Présent}{Chercheur en recherche appliquée}{Mila}{Montréal}{}{Projets en apprentissage automatique avec des partenaires du Mila, notamment Hydro-Quebec. Conseils à des startups dans le cadre du programme canadien d'aide à la recherche industrielle. Recherches en imagerie médicale.}
+\cventry{Octobre 2020 -- Présent}{Scientifique en recherche appliquée, sénior}{Mila}{Montréal}{}{}
+\vspace{-16pt}
+\cventry{Février 2019 -- Octobre 2020}{Scientifique en recherche appliquée}{}{}{}{}
+\begin{outline}
+ \1 Projets de recherche en apprentissage profond en collaboration avec l'industrie: rencontres avec les clients, montage de projets, conception de la solution, écriture du code, gestion des expériences, livraison et documentation du prototype. Exemples:
+   \2 Prévision de l’irradiance solaire totale au Québec et dans le nord-est des États-Unis de zéro à six heures à l’avance en utilisant les images d'un satellite environnemental géostationnaire.
+   \2 Détection de faux documents d'identité, modifiés par ordinateur. Les régions altérées étaient de taille et contenu variables, ainsi que les documents.
+ \1 Accompagnement de startups dans des projets d'apprentissage automatique dans le cadre du programme PARI du CNRC.
+ \1 Recrutement et gestion de stagiaires.
+\end{outline}
 
 \cventry{Novembre 2015 -- Décembre 2018}{Doctorat}{Philips Research Medisys}{Paris}{}{Thèse autour des méthodes d'apprentissage profond et de transfert d'apprentissage appliquées à des problématiques d'imagerie médicale, en particulier la classification de champ de vue en IRM et la segmentation du rein en ultrasons 3D.}
 
-\cventry{Février 2015 -- Juillet 2015}{Stage de fin d'études}{Institut de Neurosciences de la Timone}{Marseille}{}{Validation d'une méthode de `Multi-Voxel Pattern Classification' récemment développé à l'institut. Cette méthode convertit des données d'IRM fonctionnelles en graphes, qui sont ensuites classifiés par une SVM utilisant un kernel spécialisé.}
+\cventry{Février 2015 -- Juillet 2015}{Stage de fin d'études}{Institut de Neurosciences de la Timone}{Marseille}{}{Validation d'une méthode d'apprentissage automatique récemment développé à l'institut. Cette méthode convertit des données d'IRM fonctionnelles en graphes, qui sont ensuites classifiés par une SVM utilisant un kernel spécialisé.}
 
-\cventry{Janvier 2014 -- Juin 2014}{Projet Industriel}{Ingenico, départment R\&D}{Valence}{}{Etude des techniques modernes d'analyse de code afin d'évaluer la faisabilité de la vérification de règles spécifiques aux applications sur les terminaux de payement d'Ingenico, puis développement d'un prototype.}
+\cventry{Janvier 2014 -- Juin 2014}{Stage, analyse automatique de code de terminaux de paiement}{Ingenico, départment R\&D}{Valence}{}{}
+% Etude des techniques modernes d'analyse de code afin d'évaluer la faisabilité de la vérification de règles spécifiques aux applications sur les terminaux de paiement d'Ingenico, puis développement d'un prototype.
 
-\cventry{Juin 2012 -- Aout 2012}{Stage technicien}{Kizeo}{Avignon}{}{Développement d'une application Android de présentation d'un catalogue de produits, avec gestion via un site Web. Travail sur diffèrentes applications iPhone et Android.}
+\cventry{Juin 2012 -- Aout 2012}{Stage, développement Android et iPhone}{Kizeo}{Avignon}{}{}
+% Développement d'une application Android de présentation d'un catalogue de produits, avec gestion via un site Web. Travail sur diffèrentes applications iPhone et Android.
 
-\cventry{Novembre 2011 -- Mars 2012}{Freelance}{Veolia Transport Valence}{Valence}{}{Développement d'une application pour permettre aux usagers sous Android d'avoir accès au plan du réseau et aux horaires des bus de Valence.}
+\cventry{Novembre 2011 -- Mars 2012}{Freelance, développement Android}{Veolia Transport Valence}{Valence}{}{}
+% Développement d'une application pour permettre aux usagers sous Android d'avoir accès au plan du réseau et aux horaires des bus de Valence.
 
 
 \section{Formations}
-\cventry{2015--2019}{Doctorat}{Université Paris-Saclay - Télécom ParisTech - LTCI}{Paris}{}{Transfert d'apprentissage pour l'analyse anatomique d'images multi-modales}
-\cventry{2014--2015}{Semestre d'échange (ERASMUS)}{KTH Royal Institute of Technology}{Stockholm}{}{Filière intelligence artificielle et apprentissage automatique.}
-\cventry{2010--2015}{Diplôme d'ingénieur}{Grenoble INP ESISAR}{Valence}{}{Mention Bien, filière Informatique et Réseaux.}
-\cventry{2007--2010}{BAC S}{Lycée Saint-Joseph}{Avignon}{}{Mention Assez Bien, Sciences de l'Ingénieur, Spécialité Mathématiques.}
+\cventry{Novembre 2015 -- Janvier 2019}{Doctorat, apprentissage profond et imagerie médicale}{Université Paris-Saclay - Télécom ParisTech - LTCI}{Paris}{}{}
+\cventry{Aout 2014 -- Janvier 2015}{Semestre d'échange, Intelligence Artificielle et Apprentissage Automatique}{KTH Royal Institute of Technology}{Stockholm}{}{}
+\cventry{Septembre 2010 -- Juin 2015}{Diplôme d'ingénieur, Informatique et Réseaux}{Grenoble INP ESISAR}{Valence}{}{}
+\cventry{Septembre 2007 -- Juin 2010}{BAC Scientifique, Spécialité Mathématiques}{Lycée Saint-Joseph}{Avignon}{}{}
 
 
 \section{Langues}
@@ -57,31 +71,21 @@
 
 
 \section{Compétences en informatique}
-\cvitemwithcomment{Programmation}{C, Java, Python}{}
-%\textbf{Intelligence Artificielle} \\
-\cvitemwithcomment{IA et Apprentissage Automatique}{apprentissage profond, transfert d'apprentissage,}{}
-\cvitemwithcomment{}{optimisation bayésienne, classification, clustering, segmentation sémantique, modèles graphiques}{}
-%\cvitemwithcomment{Outils et méthodes d'analyse de code}{Klocwork, CODAN (Eclipse)}{}
-%\cvitemwithcomment{Réseaux}{mise en place et administration}{}
-\cvitemwithcomment{Divers}{Android, Unix, SQL, Matlab, LaTeX, Git, web development}{}
+\cvitemwithcomment{Programmation}{Python, C, PyTorch}{}
+\cvitemwithcomment{IA et Apprentissage Automatique}{apprentissage profond, vision par ordinateur,}{}
+\cvitemwithcomment{}{optimisation bayésienne, classification, segmentation sémantique, LLMs}{}
+\cvitemwithcomment{Divers}{Unix, SQL, LaTeX, Git}{}
 
 \section{Publications}
 
 \begin{itemize}
-    \item \textbf{(2020)} M. Hashir, \textbf{H. Bertrand}, J. P. Cohen - Quantifying the Value of Lateral Views in Deep Learning for Chest X-rays. \textit{Under peer-review.}
-    \item \textbf{(2020)} J. P. Cohen, M. Hashir, R. Brooks, \textbf{H. Bertrand} - On the limits of cross-domain generalization in automated X-ray prediction. \textit{Under peer-review.}
+    \item \textbf{(2022)} J. P. Cohen, [...], \textbf{H. Bertrand} - TorchXRayVision: A library of chest X-ray datasets and models. \textit{Published at MIDL 2022.}
+    \item \textbf{(2020)} M. Hashir, \textbf{H. Bertrand}, J. P. Cohen - Quantifying the Value of Lateral Views in Deep Learning for Chest X-rays. \textit{Published at MIDL 2020.}
+    \item \textbf{(2020)} J. P. Cohen, M. Hashir, R. Brooks, \textbf{H. Bertrand} - On the limits of cross-domain generalization in automated X-ray prediction. \textit{Published at MIDL 2020.}
     \item \textbf{(2019)} \textbf{H. Bertrand}, M. Hashir, J. P. Cohen - Do Lateral Views Help Automated Chest X-ray Predictions? \textit{Published at MIDL 2019.}
     \item \textbf{(2019)} \textbf{H. Bertrand} - Hyper-parameter optimization in deep learning and transfer learning: applications to medical imaging. \textit{PhD thesis.}
     \item \textbf{(2017)} \textbf{H. Bertrand}, R. Ardon, M. Perrot, I. Bloch - Hyperparameter Optimization of Deep Neural Networks: Combining Hyperband with Bayesian Model Selection. \textit{Published at CAp 2017.}
     \item \textbf{(2017)} \textbf{H. Bertrand}, M. Perrot, R. Ardon, I. Bloch - Classification of MRI data using deep learning and Gaussian process-based model selection. \textit{Published at ISBI 2017.}
 \end{itemize}
-
-
-%\section{References}
-%\begin{cvcolumns}
-  %\cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  %\cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  %\cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-%\end{cvcolumns}
 
 \end{document}
